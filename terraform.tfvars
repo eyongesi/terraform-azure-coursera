@@ -3,3 +3,5 @@ resourceGroupName = "myTerraformGroup"
 tags = {
   environment = "test"
 }
+vnetname = "myTFvnet"
+subnetname = "myTsubnet"
