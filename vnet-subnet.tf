@@ -6,7 +6,7 @@ resource "azurerm_virtual_network" "myTerraformVnet" {
   tags = var.tags
 }
 
-resource "azurerm_subnet" "myTerraformGroup" {
+resource "azurerm_subnet" "myTerraformSubnet" {
   name                 = var.subnetname
   resource_group_name  = azurerm_resource_group.myTerraformGroup.name
   virtual_network_name = azurerm_virtual_network.myTerraformGroup.name
