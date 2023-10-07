@@ -5,3 +5,4 @@ tags = {
 }
 vnetname = "myTFvnet"
 subnetname = "myTsubnet"
+ipaddressname = "myIPaddress"
