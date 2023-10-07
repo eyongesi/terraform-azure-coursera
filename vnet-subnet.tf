@@ -1,4 +1,4 @@
-resource "azurerm_virtual_network" "myTerraformGroup" {
+resource "azurerm_virtual_network" "myTerraformVnet" {
   name                = var.vnetname
   location            = var.location
   resource_group_name = azurerm_resource_group.myTerraformGroup.name
