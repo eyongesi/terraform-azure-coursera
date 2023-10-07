@@ -6,3 +6,4 @@ tags = {
 vnetname = "myTFvnet"
 subnetname = "myTsubnet"
 ipaddressname = "myIPaddress"
+nsgname = "myNSG"
